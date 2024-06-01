@@ -1,0 +1,67 @@
+.description {
+  display: inherit;
+  justify-content: space-between;
+  align-items: inherit;
+  font-size: 1.5rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+}
+
+.languageSetting {
+  display: flex;
+  flex-direction: row;
+}
+
+.language {
+  padding-right: 16px;
+}
+
+@media (max-width: 700px) {
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .description a {
+    padding: 1rem;
+  }
+
+  .description p,
+  .description div {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .description p {
+    border-radius: 0;
+    border: none;
+  }
+
+  .description div {
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(var(--background-end-rgb)) 40%
+    );
+    z-index: 1;
+  }
+}

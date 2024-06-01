@@ -1,0 +1,31 @@
+.uiContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-width: 100%;
+  width: var(--max-width);
+  top: 0;
+  left: 0;
+}
+.backButtonContainer {
+  height: 840px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.backButton {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 48px;
+}
+
+.sidedArrow {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  height: 200px;
+  align-items: center;
+}
+.bothArrow {
+  display: flex;
+}
