@@ -8,7 +8,7 @@ import Buttons from "../../../container/Buttons";
 import Contents from "../../../container/Contents";
 import Motion from "../../../container/Motion";
 
-const totalNum = 3;
+const totalNum = 4;
 
 export default function Page() {
   const [index, setIndex] = useState(0);
@@ -36,27 +36,28 @@ export default function Page() {
             <Motion src="/motion/2021/2107.mp4" />
             <Contents
               src="/2107-1.png"
-              tagName="타협"
-              emotionName="미래를 향한 자신감"
-              thinkingName="앞으로의 삶이 희망차다"
+              tagName="anger"
+              emotionName="Feeling uncertain about the future"
+              thinkingName="“I am afraid of my future life with ADHD.”"
             >
               <>
-                <CardItem date="2021-07-31" contents="못할 이유가 전혀 없다" />
-                <CardItem
-                  date="2021-07-31"
-                  contents="목표를 향해 달려나갈 수 있을 것이라 믿는다."
-                />
+                <CardItem date="+953" contents="Sad" />
+                <CardItem date="+953" contents="Sad" />
+                <CardItem date="+953" contents="Sad" />
+                <CardItem date="+953" contents="Sad" />
               </>
             </Contents>
             <Contents
               src="/2107-2.png"
-              tagName="타협"
-              emotionName="놀라운 변화"
-              thinkingName="지루하고 짜증났던 일들을 해낼 수 있게 되었다"
+              tagName="depression"
+              emotionName="2"
+              thinkingName="“I am afraid of my future life with ADHD.”"
             >
               <>
-                <CardItem date="2021-07-31" contents="Sad" />
-                <CardItem date="2021-07-31" contents="Sad" />
+                <CardItem date="2022-05-03" contents="Sad" />
+                <CardItem date="+953" contents="Sad" />
+                <CardItem date="+953" contents="Sad" />
+                <CardItem date="+953" contents="Sad" />
               </>
             </Contents>
             <Contents

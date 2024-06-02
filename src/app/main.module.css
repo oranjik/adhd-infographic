@@ -23,6 +23,11 @@
   position: relative;
   margin: 0;
 }
+.yearContainer {
+  display: flex;
+  width: var(--max-width);
+  align-items: center;
+}
 .code {
   font-weight: 700;
 }
@@ -33,31 +38,47 @@
   max-width: 100%;
   width: var(--max-width);
 }
+.gridYearTitle {
+  width: 96px;
+  height: 120px;
+}
+.gridYear {
+  width: 96px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .gridMonthTitle {
   display: grid;
-  grid-template-columns: repeat(13, minmax(8%, auto));
-  max-width: 100%;
-  width: var(--max-width);
-}
-.MonthTitleContainer {
-  position: relative;
-  top: 60px;
-  background-color: gray;
-  z-index: -1;
-  max-width: 100%;
-  width: var(--max-width);
-  height: 100px;
+  grid-template-columns: repeat(12, 1fr);
+  flex: 1;
+  background-color: #303030;
+  border-radius: 40px;
+  align-items: center;
+  padding: 24px;
 }
 .gridMonth {
   display: grid;
-  grid-template-columns: repeat(13, minmax(8%, auto));
-  max-width: 100%;
-  width: var(--max-width);
+  grid-template-columns: repeat(12, 1fr);
+  padding: 24px;
+  flex: 1;
 }
 .monthName {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+  /* flex: 1; */
+  /* flex-grow: 0; */
+}
+.monthTitle {
+  font-weight: 300;
+}
+.month {
+  color: white;
 }
 .gridElement {
   justify-content: center;
@@ -103,13 +124,16 @@
 }
 
 .card {
-  padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition:
     background 200ms,
     border 200ms;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card span {

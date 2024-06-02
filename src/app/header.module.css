@@ -5,6 +5,7 @@
   font-size: 1.5rem;
   max-width: var(--max-width);
   width: 100%;
+  padding-bottom: 80px;
   z-index: 2;
 }
 
