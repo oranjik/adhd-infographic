@@ -7,12 +7,14 @@ import Header from "../../../Header";
 import Buttons from "../../../container/Buttons";
 import Contents from "../../../container/Contents";
 import Motion from "../../../container/Motion";
+import data from "./data.json";
+import { useTranslation } from "@/app/contexts/TranslationContext";
 
-const totalNum = 4;
-
-export default function Page() {
+export default function Page({ params }) {
   const [index, setIndex] = useState(0);
+  const { language } = useTranslation();
   const changePage = (num) => {
+    const totalNum = data[language][params.year][params.month].length + 1;
     if (index + num > totalNum - 1) {
       setIndex(0);
     } else if (index + num < 0) {
@@ -21,8 +23,7 @@ export default function Page() {
       setIndex(index + num);
     }
   };
-  console.log(index);
-
+  const fileName = params.year.slice(2) + params.month;
   return (
     <main className={styles.main}>
       <Header />
@@ -33,46 +34,26 @@ export default function Page() {
             className={main.contentsContainer}
             style={{ left: index * 1100 * -1 }}
           >
-            <Motion src="/motion/2021/2107.mp4" />
-            <Contents
-              src="/2107-1.png"
-              tagName="anger"
-              emotionName="Feeling uncertain about the future"
-              thinkingName="“I am afraid of my future life with ADHD.”"
-            >
-              <>
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-              </>
-            </Contents>
-            <Contents
-              src="/2107-2.png"
-              tagName="depression"
-              emotionName="2"
-              thinkingName="“I am afraid of my future life with ADHD.”"
-            >
-              <>
-                <CardItem date="2022-05-03" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-              </>
-            </Contents>
-            <Contents
-              src="/2107-3.png"
-              tagName="denial"
-              emotionName="3"
-              thinkingName="“I am afraid of my future life with ADHD.”"
-            >
-              <>
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-                <CardItem date="+953" contents="Sad" />
-              </>
-            </Contents>
+            <Motion src={`/motion/${params.year}/${fileName}.mp4`} />
+            {data[language][params.year][params.month].map((datum, index) => (
+              <Contents
+                key={`${params.year}-${params.month}-${index}`}
+                src={`/${fileName}-${index + 1}.png`}
+                tagName={datum.tagName}
+                emotionName={datum.emotionName}
+                thinkingName={datum.thinkingName}
+              >
+                <>
+                  {datum.memos.map((memo, memoIndex) => (
+                    <CardItem
+                      key={`${params.year}-${params.month}-${index}-${memoIndex}`}
+                      date={memo.date}
+                      contents={memo.contents}
+                    />
+                  ))}
+                </>
+              </Contents>
+            ))}
           </div>
         </div>
       </div>

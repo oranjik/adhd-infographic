@@ -1,9 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import header from "./header.module.css";
-import Link from "next/link";
+import { useTranslation } from "./contexts/TranslationContext";
 
 export default function Header() {
+  const { switchLanguage, language } = useTranslation();
   return (
     <div className={header.description}>
       <p>ABOUT</p>
@@ -22,13 +25,28 @@ export default function Header() {
         </a>
       </div>
       <div className={header.languageSetting}>
-        <Link href="/" className={header.language}>
-          ENG
-        </Link>
-        <Link href="/" className={header.language}>
-          KOR
-        </Link>
+        <LanguageButton
+          language="en"
+          switchLanguage={switchLanguage}
+          isSelected={language === "en"}
+          text="ENG"
+        />
+        <LanguageButton
+          language="ko"
+          switchLanguage={switchLanguage}
+          isSelected={language === "ko"}
+          text="KOR"
+        />
       </div>
     </div>
   );
 }
+
+const LanguageButton = ({ language, switchLanguage, isSelected, text }) => (
+  <div
+    onClick={() => switchLanguage(language)}
+    className={isSelected && header.languageSelected}
+  >
+    {text}
+  </div>
+);

@@ -78,7 +78,7 @@ export default function Home() {
           <Month href="2021/07" src="/2021/2107.png" />
           <Month href="2021/08" src="/2021/2108.png" />
           <Month href="2021/09" src="/2021/2109.png" />
-          <Month href="2021/10" src="/2021/2110.png" />
+          <Month src="/2021/2110.png" />
           <Month href="2021/11" src="/2021/2111.png" />
           <Month href="2021/12" src="/2021/2112.png" />
         </div>

@@ -1,5 +1,6 @@
 import { Inter, Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
+import { TranslationProvider } from "./contexts/TranslationContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={notoSansKr.className}>{children}</body>
+      <body className={notoSansKr.className}>
+        <TranslationProvider>{children}</TranslationProvider>
+      </body>
     </html>
   );
 }

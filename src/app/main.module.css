@@ -40,11 +40,10 @@
 }
 .gridYearTitle {
   width: 96px;
-  height: 120px;
 }
 .gridYear {
   width: 96px;
-  height: 186px;
+  height: 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
