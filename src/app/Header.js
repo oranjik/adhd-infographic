@@ -14,7 +14,7 @@ export default function Header() {
         <p className={header.about}>ABOUT</p>
       </Link>
       <div>
-        <a href="/" target="_self" rel="noopener noreferrer">
+        <Link href="/" target="_self" rel="noopener noreferrer">
           {" "}
           <Image
             src="/logo.png"
@@ -25,7 +25,7 @@ export default function Header() {
             height={62}
             priority
           />
-        </a>
+        </Link>
       </div>
       <div className={header.languageSetting}>
         <LanguageButton
