@@ -4,12 +4,15 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import header from "./header.module.css";
 import { useTranslation } from "./contexts/TranslationContext";
+import Link from "next/link";
 
 export default function Header() {
   const { switchLanguage, language } = useTranslation();
   return (
     <div className={header.description}>
-      <p>ABOUT</p>
+      <Link href="/about" target="_self">
+        <p className={header.about}>ABOUT</p>
+      </Link>
       <div>
         <a href="/" target="_self" rel="noopener noreferrer">
           {" "}
@@ -19,7 +22,7 @@ export default function Header() {
             className={styles.vercelLogo}
             fontSize={15}
             width={160}
-            height={54}
+            height={62}
             priority
           />
         </a>

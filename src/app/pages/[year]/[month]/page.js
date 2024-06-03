@@ -38,19 +38,20 @@ export default function Page({ params }) {
             {data[language][params.year][params.month].map((datum, index) => (
               <Contents
                 key={`${params.year}-${params.month}-${index}`}
-                src={`/${fileName}-${index + 1}.png`}
+                src={`/pageCircle/${params.year}/${fileName}-${index + 1}.png`}
                 tagName={datum.tagName}
                 emotionName={datum.emotionName}
                 thinkingName={datum.thinkingName}
               >
                 <>
-                  {datum.memos.map((memo, memoIndex) => (
-                    <CardItem
-                      key={`${params.year}-${params.month}-${index}-${memoIndex}`}
-                      date={memo.date}
-                      contents={memo.contents}
-                    />
-                  ))}
+                  {datum.memos &&
+                    datum.memos.map((memo, memoIndex) => (
+                      <CardItem
+                        key={`${params.year}-${params.month}-${index}-${memoIndex}`}
+                        date={memo.date}
+                        contents={memo.contents}
+                      />
+                    ))}
                 </>
               </Contents>
             ))}
@@ -64,7 +65,8 @@ export default function Page({ params }) {
 function CardItem({ date, contents }) {
   return (
     <div className={main.cardItem}>
-      <p className={main.cardDate}>{`+${daysSince(date)}`}</p>
+      <p className={main.cardDay}>+{daysSince(date)}</p>
+      <p className={main.cardDate}>{date}</p>
       <p className={main.cardItemContent}>{contents}</p>
     </div>
   );

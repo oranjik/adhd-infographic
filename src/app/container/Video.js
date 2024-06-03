@@ -1,6 +1,6 @@
-export function Video({ src }) {
+export function Video({ src, width = 1300 }) {
   return (
-    <video width="1300" autoPlay loop muted>
+    <video width={width} autoPlay loop muted>
       <source src={src} type="video/mp4" />
       <track
         src="/path/to/captions.vtt"
