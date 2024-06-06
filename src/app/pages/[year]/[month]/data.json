@@ -342,7 +342,7 @@
             },
             {
               "date": "2022-10-23",
-              "contents": "스트레스를 어떻게 다뤄야 할지 모르곘다"
+              "contents": "스트레스를 어떻게 다뤄야 할지 모르겠다"
             }
           ]
         },
@@ -916,95 +916,913 @@
       "07": [
         {
           "tagName": "Bargaining",
-          "emotionName": "미래를 향한 자신감",
-          "thinkingName": "앞으로의 삶이 희망차다",
+          "emotionName": "Confidence for the future",
+          "thinkingName": "The future life is full of hope",
           "memos": [
-            { "date": "2021-07-31", "contents": "못할 이유가 전혀 없다" },
             {
               "date": "2021-07-31",
-              "contents": "목표를 향해 달려나갈 수 있을 것이라 믿는다."
+              "contents": "There's absolutely no reason why I can't do it."
+            },
+            {
+              "date": "2021-07-31",
+              "contents": "I believe that I can run towards my goal."
             }
           ]
         },
         {
-          "tagName": "타협",
-          "emotionName": "놀라운 변화",
-          "thinkingName": "지루하고 짜증났던 일들을 해낼 수 있게 되었다",
+          "tagName": "Bargaining",
+          "emotionName": "Amazing change",
+          "thinkingName": "I am now able to complete tasks that used to be boring and frustrating.",
           "memos": [
             {
               "date": "2021-07-31",
-              "contents": "중간에 그만 둔 일을 끝까지 해낼 수 있게 되었다"
+              "contents": "I am now able to finish the work I stopped doing halfway through."
             },
             {
               "date": "2021-07-31",
-              "contents": "이거보고 해야지라는 생각을 하기 보다는 절제가 된다"
+              "contents": "Rather than thinking, “I have to do this after watching this,” I practice restraint."
             },
             {
               "date": "2021-07-31",
-              "contents": "기다리는 게 초조하고 스트레스를 받지 않는다"
+              "contents": "I don't feel anxious or stressed about waiting."
             }
           ]
         }
       ],
       "08": [
         {
-          "tagName": "타협",
-          "emotionName": "자신감과 열정",
-          "thinkingName": "앞으로 해낼 수 있다!",
+          "tagName": "Bargaining",
+          "emotionName": "confidence and passion",
+          "thinkingName": "I can do it!",
           "memos": [
             {
               "date": "2021-08-01",
-              "contents": "무엇이든 할 수 있을 것만 같다"
+              "contents": "I feel like I can do anything"
             },
             {
               "date": "2021-08-01",
-              "contents": "내가 노력할 수 있는 사람이라는 게 뿌듯하다"
+              "contents": "I'm proud that I'm someone who can make an effort."
             },
             {
               "date": "2021-08-01",
-              "contents": "나는 왜 이럴까 자책하는 것이 사라졌다"
+              "contents": "I stopped blaming myself like why am I like this? ."
             },
             {
               "date": "2021-08-02",
-              "contents": "옛날에는 지루하고 짜증나서 오래 공부 하지 않았던 어려운 개념들도 쉽게 집중할 수 있었다."
+              "contents": "I am able to easily focus on difficult concepts that I had not studied for a long time because I was bored and annoyed in the past."
             }
           ]
         },
         {
-          "tagName": "수용",
-          "emotionName": "자기 연민",
-          "thinkingName": "그동안 고생이 많았다",
+          "tagName": "Acceptance",
+          "emotionName": "self pity",
+          "thinkingName": "It's been a lot of hard work",
           "memos": [
             {
               "date": "2021-08-02",
-              "contents": "오늘도 역시 공부하는 데에 지루함이 들었다."
+              "contents": "I felt bored studying today again."
             },
             {
               "date": "2021-08-07",
-              "contents": "근데 이 모든 게 ADHD 때문이라면 나는 이제 좀 더 자유로워질 수 있는 걸까?"
+              "contents": "But if all of this is because of ADHD, can I feel more free in the future?"
             },
             {
               "date": "2021-08-07",
-              "contents": "스스로가 대견하다는 생각을 했다. 잘 유지하기 어려운 집중력을 갖고서 어떻게든 애쓰고 살아왔다."
+              "contents": "I felt proud of myself. I have struggled to survive with a concentration that is difficult to maintain."
             }
           ]
         },
         {
-          "tagName": "수용",
-          "emotionName": "자기 연민",
-          "thinkingName": "그동안 고생이 많았다",
+          "tagName": "Depression",
+          "emotionName": "Generalized anxiety disorder and depression",
+          "thinkingName": "I still feel anxious",
           "memos": [
             {
-              "date": "2021-08-02",
-              "contents": "오늘도 역시 공부하는 데에 지루함이 들었다."
+              "date": "2021-08-03",
+              "contents": "My anxiety isn't going away yet."
             },
             {
               "date": "2021-08-07",
-              "contents": "근데 이 모든 게 ADHD 때문이라면 나는 이제 좀 더 자유로워질 수 있는 걸까?"
+              "contents": "When I'm doing one thing, I feel anxious about what to do with the other thing."
             },
             {
+              "date": "2021-08-20",
+              "contents": "I'm scared that people will hate me or that people will feel like I'm unnecessary."
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "Depressed life",
+          "thinkingName": "What if I don't do well in the future?",
+          "memos": [
+            {
               "date": "2021-08-07",
-              "contents": "스스로가 대견하다는 생각을 했다. 잘 유지하기 어려운 집중력을 갖고서 어떻게든 애쓰고 살아왔다."
+              "contents": "I have a vague belief that I won't be able to do well."
+            },
+            {
+              "date": "2021-08-29",
+              "contents": "I am scared that I will become frustrated in life again."
+            }
+          ]
+        }
+      ],
+      "09": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "continuing anxiety",
+          "thinkingName": "The anxiety won't go away",
+          "memos": [
+            {
+              "date": "2021-09-02",
+              "contents": "I can't start taking on responsibilities because I'm anxious."
+            },
+            {
+              "date": "2021-09-07",
+              "contents": "Anxiety symptoms occur in daily life"
+            }
+          ]
+        },
+        {
+          "tagName": "Anger",
+          "emotionName": "drug side effects",
+          "thinkingName": "I can't sleep well and have no appetite.",
+          "memos": [
+            {
+              "date": "2021-09-07",
+              "contents": "I keep dreaming and tossing and turning"
+            },
+            {
+              "date": "2021-09-30",
+              "contents": "There are days when I starve because I have no appetite at all."
+            }
+          ]
+        }
+      ],
+      "11": [
+        {
+          "tagName": "Acceptance",
+          "emotionName": "Accepting ADHD",
+          "thinkingName": "It's okay to have ADHD",
+          "memos": [
+            {
+              "date": "2021-11-16",
+              "contents": "I have ADHD."
+            },
+            {
+              "date": "2021-11-16",
+              "contents": "I try my best to survive well."
+            }
+          ]
+        },
+        {
+          "tagName": "Anger",
+          "emotionName": "Upset and pity",
+          "thinkingName": "Even when I'm angry at myself, I try to look at myself positively.",
+          "memos": [
+            {
+              "date": "2021-11-16",
+              "contents": "Although I blame myself, I spend a lot of time looking at it positively."
+            }
+          ]
+        }
+      ],
+      "12": [
+        {
+          "tagName": "Anger",
+          "emotionName": "Frustration",
+          "thinkingName": "Problems caused by ADHD are not solved",
+          "memos": [
+            {
+              "date": "2021-12-20",
+              "contents": "Even though it is ADHD, the problem seems to be the same."
+            },
+            {
+              "date": "2021-12-31",
+              "contents": "loneliness, feeling of alienation"
+            }
+          ]
+        }
+      ]
+    },
+    "2022": {
+      "02": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Understanding ADHD",
+          "thinkingName": "I have a hard time doing things I don't like.",
+          "memos": [
+            {
+              "date": "2022-02-12",
+              "contents": "It is difficult to endure and endure."
+            },
+            {
+              "date": "2022-02-12",
+              "contents": "Attention problems vary greatly depending on interests. I don't bother with things I like and are interested in. "
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "A boring life",
+          "thinkingName": "Life is no fun",
+          "memos": [
+            {
+              "date": "2022-02-28",
+              "contents": "I'm lethargic without doing anything fun, and even if I do, I can't concentrate and it's not fun."
+            }
+          ]
+        }
+      ],
+      "04": [
+        {
+          "tagName": "Depression",
+          "emotionName": "Lethargy",
+          "thinkingName": "don't want to do anything",
+          "memos": [
+            { "date": "2022-04-08", "contents": "don't want to do anything" },
+            {
+              "date": "2022-04-08",
+              "contents": "There is nothing fun. There is just so much to do."
+            }
+          ]
+        }
+      ],
+      "06": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "my disadvantages",
+          "thinkingName": "I want to improve what I lack due to ADHD",
+          "memos": [
+            {
+              "date": "2022-06-04",
+              "contents": "What ADHD lacks: Inability to organize, form habits, and be meticulous in repetitive tasks."
+            },
+            {
+              "date": "2022-06-12",
+              "contents": "Don't hide behind ADHD"
+            }
+          ]
+        }
+      ],
+      "07": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Hope",
+          "thinkingName": "Let's create a routine",
+          "memos": [
+            {
+              "date": "2022-07-23",
+              "contents": "Draw a blueprint for my long-term routine and implement 10% of it."
+            },
+            {
+              "date": "2022-07-23",
+              "contents": "How can we do it another way? When I thought about this, I felt excited."
+            }
+          ]
+        }
+      ],
+      "08": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "continuation of boredom",
+          "thinkingName": "Work and study are not fun",
+          "memos": [
+            {
+              "date": "2022-08-14",
+              "contents": "I'm very bored these days. I have work to do, but I feel pressured and have trouble concentrating."
+            },
+            {
+              "date": "2022-08-14",
+              "contents": "How can people make a living doing boring things?"
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "anxiety and worry",
+          "thinkingName": "I'm afraid of my future life",
+          "memos": [
+            {
+              "date": "2022-08-30",
+              "contents": "I won't live the life I want"
+            },
+            {
+              "date": "2022-08-30",
+              "contents": "After completing my master's/Ph.D., I will become unemployed."
+            },
+            {
+              "date": "2022-08-30",
+              "contents": "I don't have the confidence to live life"
+            }
+          ]
+        }
+      ],
+      "10": [
+        {
+          "tagName": "Denial",
+          "emotionName": "Not taking medication",
+          "thinkingName": "I don't want to take medicine anymore",
+          "memos": [
+            {
+              "date": "2022-10-12",
+              "contents": "I keep forgetting to take my medicine"
+            },
+            {
+              "date": "2022-10-14",
+              "contents": "I don't want to take medicine because I have no appetite."
+            }
+          ]
+        },
+        {
+          "tagName": "Bargaining",
+          "emotionName": "new challenge",
+          "thinkingName": "Let's change places",
+          "memos": [
+            {
+              "date": "2022-10-20",
+              "contents": "My day seems to have changed after sleeping at an acquaintance's house. I ate breakfast and took medicine."
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "Stress",
+          "thinkingName": "How can I relieve stress?",
+          "memos": [
+            {
+              "date": "2022-10-22",
+              "contents": "When I'm under a lot of stress, I feel like I'm not doing the things I need to do. "
+            },
+            {
+              "date": "2022-10-22",
+              "contents": "I'm letting go of work now, but I need to pick it up again. "
+            },
+            {
+              "date": "2022-10-23",
+              "contents": "I didn't know how to deal with stress."
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "아무것도 하고 싶지 않음",
+          "thinkingName": "잘못 살았고, 살고 싶지 않다",
+          "memos": [
+            {
+              "date": "2022-10-21",
+              "contents": "내 인생은 살짝 실패작인 것 같다."
+            },
+            {
+              "date": "2022-10-24",
+              "contents": "해야할 일도 열심히 하지 않고, 해야할 일을 아예 하지 않는 날도 많다."
+            },
+            {
+              "date": "2022-10-24",
+              "contents": "사는 거 자체가 재미가 없는 것 같다. "
+            },
+            {
+              "date": "2022-10-24",
+              "contents": "해야할 일을 하지 못해서 화가 난다"
+            }
+          ]
+        }
+      ],
+      "11": [
+        {
+          "tagName": "Depression",
+          "emotionName": "Reasons for being depressed",
+          "thinkingName": "work is too hard",
+          "memos": [
+            {
+              "date": "2022-11-25",
+              "contents": "I feel like I'm bullying my team members by giving them more work. "
+            },
+            {
+              "date": "2022-11-25",
+              "contents": "I feel like I've become a useless person"
+            }
+          ]
+        }
+      ]
+    },
+    "2023": {
+      "02": [
+        {
+          "tagName": "Depression",
+          "emotionName": "energy depletion",
+          "thinkingName": "I can't do anything",
+          "memos": [
+            {
+              "date": "2023-02-12",
+              "contents": "I keep putting off work. I hate myself like this so much"
+            },
+            {
+              "date": "2022-02-22",
+              "contents": "No energy"
+            }
+          ]
+        }
+      ],
+      "04": [
+        {
+          "tagName": "Acceptance",
+          "emotionName": "determination to overcome",
+          "thinkingName": "Let's live with ADHD",
+          "memos": [
+            {
+              "date": "2023-04-13",
+              "contents": "People want to know if I really have ADHD."
+            },
+            {
+              "date": "2023-04-22",
+              "contents": "morning routine and exercise"
+            },
+            {
+              "date": "2023-04-25",
+              "contents": "Describe my situation in detail to get help"
+            }
+          ]
+        }
+      ],
+      "05": [
+        {
+          "tagName": "Acceptance",
+          "emotionName": "Facing the side effects",
+          "thinkingName": "Take care of my health",
+          "memos": [
+            {
+              "date": "2023-05-02",
+              "contents": "Sleep problems, nausea, and loss of appetite"
+            },
+            {
+              "date": "2023-05-16",
+              "contents": "It's not being organized again."
+            },
+            {
+              "date": "2023-05-23",
+              "contents": "Visiting an Korean medicine clinic, severe flushing and lack of energy in the body"
+            }
+          ]
+        }
+      ],
+      "06": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Taking action",
+          "thinkingName": "using Korean medical to take care of my body",
+          "memos": [
+            {
+              "date": "2023-06-13",
+              "contents": "Severe stress and blood circulation problems"
+            },
+            {
+              "date": "2023-06-17",
+              "contents": "Digestive problems and chest pain"
+            }
+          ]
+        }
+      ],
+      "07": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "New attempt",
+          "thinkingName": "Living with ADHD without medication",
+          "memos": [
+            {
+              "date": "2023-07-23",
+              "contents": "I don't take medicine because I feel like it gets worse."
+            },
+            {
+              "date": "2023-07-27",
+              "contents": "Exercise, rest, sleep, exposure to sunlight, eat well"
+            }
+          ]
+        }
+      ],
+      "08": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "My vulnerability",
+          "thinkingName": "let's get to know me",
+          "memos": [
+            {
+              "date": "2023-08-05",
+              "contents": "The emotional wounds I have suffered since childhood due to ADHD"
+            },
+            {
+              "date": "2023-08-11",
+              "contents": "Even if there are vulnerabilities, the environment is important"
+            }
+          ]
+        },
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Dealing with the future",
+          "thinkingName": "Let's manage energy",
+          "memos": [
+            {
+              "date": "2023-08-15",
+              "contents": "Energy strength and optimal efficiency"
+            },
+            {
+              "date": "2023-08-25",
+              "contents": "Is Europe a better place for my children to live in 2050? ADHD genetics and my children"
+            },
+            {
+              "date": "2023-08-30",
+              "contents": "Make important decisions when your heart rate and blood sugar levels are at their best"
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "don't hurt otehrs",
+          "thinkingName": "I feel so sorry for people.",
+          "memos": [
+            {
+              "date": "2023-08-23",
+              "contents": "Anxiety that I may harm/hurt loved ones.​"
+            }
+          ]
+        }
+      ],
+      "09": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Self-care",
+          "thinkingName": "Know myself well",
+          "memos": [
+            {
+              "date": "2023-09-13",
+              "contents": "Find a self-care method that works for me for my mental health"
+            },
+            {
+              "date": "2023-09-14",
+              "contents": "Generalized anxiety disorder: agitation, difficulty concentrating, difficulty sleeping"
+            }
+          ]
+        },
+        {
+          "tagName": "Acceptance",
+          "emotionName": "mindset",
+          "thinkingName": "ADHD is not something to be ashamed of",
+          "memos": [
+            {
+              "date": "2023-09-19",
+              "contents": "If I don't have any major problems, it's okay to appear in front of people."
+            },
+            {
+              "date": "2023-09-19",
+              "contents": "Be confident and courageous"
+            },
+            {
+              "date": "2023-09-28",
+              "contents": "Make a checklist of things I don’t want to do and do them."
+            }
+          ]
+        }
+      ],
+      "11": [
+        {
+          "tagName": "Acceptance",
+          "emotionName": "Acknowledging ADHD",
+          "thinkingName": "Coexisting with ADHD",
+          "memos": [
+            {
+              "date": "2023-11-13",
+              "contents": "There is no cure for ADHD, it has to be dealt with together."
+            },
+            {
+              "date": "2023-11-13",
+              "contents": "Increase my sense of efficacy"
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "anger towards myself",
+          "thinkingName": "My health has deteriorated and I am not doing well.",
+          "memos": [
+            {
+              "date": "2023-11-17",
+              "contents": "upset. My health continues to be poor, and I am not doing my best."
+            }
+          ]
+        }
+      ],
+      "12": [
+        {
+          "tagName": "Depression",
+          "emotionName": "Burnout",
+          "thinkingName": "don't want to do anything",
+          "memos": [
+            {
+              "date": "2023-12-01",
+              "contents": "Guilt, upset, depressed"
+            },
+            {
+              "date": "2023-12-05",
+              "contents": "I pretend to be okay, but it's hard and frustrating."
+            },
+            {
+              "date": "2023-12-20",
+              "contents": "I don't want to do my homework. I don’t want to be hated by my professors. I don't want to do anything."
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "Fear",
+          "thinkingName": "I'm scared of the future I have with ADHD.",
+          "memos": [
+            {
+              "date": "2023-12-10",
+              "contents": "fear, worry, anxiety"
+            },
+            {
+              "date": "2023-12-30",
+              "contents": "You have to have hope/expectations to be happy."
+            }
+          ]
+        }
+      ]
+    },
+    "2024": {
+      "01": [
+        {
+          "tagName": "Depression",
+          "emotionName": "Upset",
+          "thinkingName": "believe that nothing can be done",
+          "memos": [
+            {
+              "date": "2024-01-03",
+              "contents": "I am unable to make paper, school assignments, or travel reservations."
+            },
+            {
+              "date": "2024-01-06",
+              "contents": "I'm not confident I'll do well, I won't be able to do it"
+            },
+            {
+              "date": "2024-01-10",
+              "contents": "I have no confidence or faith in myself."
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "self loathing",
+          "thinkingName": "I'm not a good person",
+          "memos": [
+            {
+              "date": "2024-01-13",
+              "contents": "I only talk about myself and make my friends tired."
+            },
+            {
+              "date": "2024-01-18",
+              "contents": "I feel anxious because I think I won't be able to do well due to frequent mistakes and lack of concentration due to ADHD.​​​"
+            }
+          ]
+        },
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Understanding ADHD",
+          "thinkingName": "Let's study ADHD",
+          "memos": [
+            {
+              "date": "2024-01-22",
+              "contents": "Identify my own shortcomings and learn how to live like a normal person without showing any signs of it."
+            },
+            {
+              "date": "2024-01-31",
+              "contents": "Make your daily life small, like a quest, and overcome it one by one."
+            }
+          ]
+        },
+        {
+          "tagName": "Denial",
+          "emotionName": "Presence of ADHD",
+          "thinkingName": "Doesn't ADHD exist?",
+          "memos": [
+            {
+              "date": "2024-01-24",
+              "contents": "ADHD may just be a trait"
+            }
+          ]
+        }
+      ],
+      "02": [
+        {
+          "tagName": "Depression",
+          "emotionName": "Guilty",
+          "thinkingName": "I hate myself for causing harm to others.",
+          "memos": [
+            {
+              "date": "2024-02-07",
+              "contents": "Behaving defensively and feeling guilty about causing harm"
+            },
+            {
+              "date": "2024-02-22",
+              "contents": "Things to change as an ADHD person: Fluctuating concentration and mood disorders"
+            },
+            {
+              "date": "2024-02-28",
+              "contents": "Depressed and upset. I feel like I've been living it wrong"
+            }
+          ]
+        },
+        {
+          "tagName": "Acceptance",
+          "emotionName": "Life lesson",
+          "thinkingName": "Don't be too sad about ADHD",
+          "memos": [
+            {
+              "date": "2024-02-08",
+              "contents": "ADHD can also be my strengths, weaknesses, pros, and cons."
+            },
+            {
+              "date": "2024-02-09",
+              "contents": "There is no life well lived or bad life."
+            },
+            {
+              "date": "2024-02-28",
+              "contents": "Accepting that life inevitably brings difficulties, and accepting what I cannot change in my life."
+            }
+          ]
+        },
+        {
+          "tagName": "Denial",
+          "emotionName": "Fear",
+          "thinkingName": "I'm afraid of the future",
+          "memos": [
+            {
+              "date": "2024-02-22",
+              "contents": "I'm scared that I'll worry about money and live in misery. "
+            },
+            {
+              "date": "2024-02-26",
+              "contents": "I'm scared to go to work or go to work?"
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "공허함",
+          "thinkingName": "I don't know why I have to work hard",
+          "memos": [
+            {
+              "date": "2024-02-27",
+              "contents": "People will break up anyway, and people will quit their jobs anyway, so I don't know what the meaning is/why I should work hard."
+            },
+            {
+              "date": "2024-02-28",
+              "contents": "Nothing is enjoyable, nothing feels meaningless"
+            }
+          ]
+        },
+        {
+          "tagName": "Bargaining",
+          "emotionName": "turning the arrow of blame",
+          "thinkingName": "ADHD is not my fault",
+          "memos": [
+            {
+              "date": "2024-02-14",
+              "contents": "ADHD is not my fault."
+            }
+          ]
+        }
+      ],
+      "03": [
+        {
+          "tagName": "Bargaining",
+          "emotionName": "procrastination",
+          "thinkingName": "I want to stop putting it off",
+          "memos": [
+            {
+              "date": "2024-03-01",
+              "contents": "Procrastination is not a habit but a stress avoidance response"
+            },
+            {
+              "date": "2024-03-03",
+              "contents": "I'm scared that my reputation will be tarnished because I'm not good at things I've never done before, where I can make mistakes, or when I can see the results."
+            },
+            {
+              "date": "2024-03-19",
+              "contents": "Lack of confidence by setting standards that are too high or unrealistic goals that cannot be achieved"
+            }
+          ]
+        },
+        {
+          "tagName": "Acceptance",
+          "emotionName": "important decision",
+          "thinkingName": "resolve to be positive about myself",
+          "memos": [
+            {
+              "date": "2024-03-03",
+              "contents": "I will become a person who takes advantage of ADHD"
+            },
+            {
+              "date": "2024-03-25",
+              "contents": "ADHD is a lifestyle problem"
+            }
+          ]
+        },
+        {
+          "tagName": "Bargaining",
+          "emotionName": "Relieve Anxiety and Depression",
+          "thinkingName": "I wanted to know about my anxiety and depression.",
+          "memos": [
+            {
+              "date": "2024-03-20",
+              "contents": "I believe that I have to be useful and good at something to be worthy of existence."
+            },
+            {
+              "date": "2024-03-24",
+              "contents": "I should be happy to stay like this"
+            }
+          ]
+        },
+        {
+          "tagName": "Depression",
+          "emotionName": "Fear",
+          "thinkingName": "The life ahead is scary.",
+          "memos": [
+            {
+              "date": "2024-03-20",
+              "contents": "Fear that ADHD will ruin my work life."
+            }
+          ]
+        },
+        {
+          "tagName": "Anger",
+          "emotionName": "Living with ADHD",
+          "thinkingName": "I feel sad about myself not changing.",
+          "memos": [
+            {
+              "date": "2024-03-13",
+              "contents": "If I practice, it takes 100 days to get better, and 3 years to see any changes."
+            }
+          ]
+        },
+        {
+          "tagName": "Denial",
+          "emotionName": "What if I don't take medicine",
+          "thinkingName": "Trying other treatments without taking medication",
+          "memos": [
+            {
+              "date": "2024-03-19",
+              "contents": "I don't need to take adhd medication. Cognitive behavioral therapy is more important"
+            }
+          ]
+        }
+      ],
+      "04": [
+        {
+          "tagName": "Depression",
+          "emotionName": "Upset",
+          "thinkingName": "My state of mind is not good.",
+          "memos": [
+            {
+              "date": "2024-04-06",
+              "contents": "I am discouraged that I will not be able to control my life due to ADHD and that it will be a mess (loss of control and autonomy)"
+            },
+            {
+              "date": "2024-04-06",
+              "contents": "I am passively doing my job due to depression, anxiety, and lethargy."
+            },
+            {
+              "date": "2024-04-20",
+              "contents": "The problem is not lack of motivation or attitude, but lack of confidence or insecurity."
+            }
+          ]
+        },
+        {
+          "tagName": "Acceptance",
+          "emotionName": "Succeeding with ADHD",
+          "thinkingName": "I want to live well with ADHD",
+          "memos": [
+            {
+              "date": "2024-04-05",
+              "contents": "Characteristics of a successful person with ADHD: Know exactly your weaknesses and know the strategies and tools to compensate."
+            },
+            {
+              "date": "2024-04-06",
+              "contents": "Compassion from others and willingness to comply are important to the success of people with ADHD."
+            }
+          ]
+        },
+        {
+          "tagName": "Acceptance",
+          "emotionName": "Accepting ADHD",
+          "thinkingName": "ADHD is not a disease",
+          "memos": [
+            {
+              "date": "2024-04-12",
+              "contents": "Although it is considered a neurodevelopmental disorder, it should be viewed as a type of trait, personality, or ability."
+            },
+            {
+              "date": "2024-04-17",
+              "contents": "Executive function itself can easily be impaired by depression, anxiety, fatigue, etc."
             }
           ]
         }

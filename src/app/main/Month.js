@@ -1,5 +1,6 @@
 import Image from "next/image";
 import main from "../main.module.css";
+import Link from "next/link";
 
 export default function Month({ href, src }) {
   if (!href) {
@@ -16,7 +17,7 @@ export default function Month({ href, src }) {
     );
   }
   return (
-    <a
+    <Link
       href={`pages/${href}`}
       className={main.card}
       target="_self"
@@ -29,6 +30,6 @@ export default function Month({ href, src }) {
         width={64}
         height={64}
       />
-    </a>
+    </Link>
   );
 }
