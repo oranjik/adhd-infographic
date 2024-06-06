@@ -1266,24 +1266,24 @@
         },
         {
           "tagName": "Depression",
-          "emotionName": "아무것도 하고 싶지 않음",
-          "thinkingName": "잘못 살았고, 살고 싶지 않다",
+          "emotionName": "don't want to do anything",
+          "thinkingName": "I lived wrong, I don't want to live",
           "memos": [
             {
               "date": "2022-10-21",
-              "contents": "내 인생은 살짝 실패작인 것 같다."
+              "contents": "I feel like my life is a bit of a failure."
             },
             {
               "date": "2022-10-24",
-              "contents": "해야할 일도 열심히 하지 않고, 해야할 일을 아예 하지 않는 날도 많다."
+              "contents": "There are many days when I don't work hard at what I need to do, and I don't do what I need to do at all."
             },
             {
               "date": "2022-10-24",
-              "contents": "사는 거 자체가 재미가 없는 것 같다. "
+              "contents": "Life itself doesn't seem to be fun. "
             },
             {
               "date": "2022-10-24",
-              "contents": "해야할 일을 하지 못해서 화가 난다"
+              "contents": "I'm angry because I can't do what I need to do"
             }
           ]
         }
